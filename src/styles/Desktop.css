@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media only screen and (min-width: 780px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  #homePage .typewriter {
+    margin: 10% 3% 0;
+  }
+  #homePage .typewriter h1 {
+    font-size: 3rem;
+    padding: 0 1.5%;
+  }
+  #homePage .typewriter h1:hover {
+    font-size: 4rem;
+  }
+  #homePage .typewriter h2 {
+    padding: 0.5% 1.5%;
+    font-size: 2rem;
+  }
+  #homePage .homeBottom {
+    margin: 5% 3% 0;
+  }
+  #homePage .homeBottom h3 {
+    padding: 0.5% 1.5%;
+  }
+  #homePage .homeBottom .underline-transition {
+    background-size: 0% 0.20em;
+  }
+  #homePage .homeBottom .underline-transition:hover {
+    background-size: 30% 100%;
+  }
+  .aboutPage .logoHeading {
+    padding-bottom: 5%;
+    font-size: 5vw;
+  }
+  .aboutPage .aboutTopSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .aboutPage .aboutTopSection .imageAndDetails {
+    width: 20%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .aboutPage .aboutTopSection .imageAndDetails .profileImage {
+    margin-bottom: 10%;
+    width: 100%;
+    padding-top: 100%;
+  }
+  .aboutPage .aboutTopSection .imageAndDetails .details {
+    width: 100%;
+  }
+  .aboutPage .aboutTopSection .imageAndDetails .details div {
+    font-size: 1.65vw;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 70%;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection .aboutMe {
+    width: 50%;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection .aboutMe p {
+    font-size: 1.5vw;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection .interests {
+    width: 35%;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection .interests p {
+    font-size: 1.25rem;
+  }
+  .aboutPage .learningPath .timelineWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 0;
+  }
+  .aboutPage .learningPath .timelineWrapper .timelineYears {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .aboutPage .learningPath .timelineWrapper .timelineYears .yearItem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .aboutPage .learningPath .timelineWrapper .timelineYears .yearItem h2 {
+    padding: 0;
+    text-align: center;
+  }
+  .aboutPage .learningPath .timelineWrapper .timelineYears .yearItem .line {
+    min-width: 1vw;
+    height: 7.5vh;
+    margin-top: -4.5vh;
+  }
+  .aboutPage .learningPath .timelineWrapper .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-left: none;
+    border-bottom: 2vh solid #2FCAB0;
+    margin-left: 0;
+    height: 30vh;
+  }
+  .aboutPage .learningPath .timelineWrapper .timeline .timelineItem {
+    padding: 0;
+    width: 30%;
+    text-align: center;
+    min-height: 5vh;
+  }
+  .aboutPage .learningPath .timelineWrapper .timeline .timelineItem h2 {
+    font-size: 1.5rem;
+  }
+  .aboutPage .learningPath .timelineWrapper .timeline .timelineItem p {
+    font-size: 1rem;
+  }
+  .projectsPage {
+    max-width: 65%;
+  }
+  .projectsPage .heading {
+    font-size: 5vw;
+    margin-bottom: 7.5%;
+  }
+  .projectsPage .projectGallery .projectAnchor {
+    width: 30%;
+    max-width: 275px;
+  }
+  .projectsPage .projectGallery .projectAnchor .cardInfo h1 {
+    font-size: 1.75vw;
+  }
+  .projectsPage .projectGallery .projectAnchor .cardInfo p {
+    font-size: 1vw;
+  }
+  .projectsPage .projectGallery .projectAnchor .cardInfo .createdWith {
+    font-size: 1.5vw;
+  }
+}
+/*# sourceMappingURL=Desktop.css.map */

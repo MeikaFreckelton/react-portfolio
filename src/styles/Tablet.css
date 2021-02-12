@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  #homePage .typewriter {
+    margin: 30% 3% 0;
+  }
+  #homePage .typewriter h1 {
+    font-size: 4rem;
+  }
+  #homePage .typewriter h2 {
+    font-size: 2.5rem;
+  }
+  #homePage .homeBottom h3 {
+    font-size: 2rem;
+  }
+  #homePage .homeBottom .underline-transition {
+    background-size: 20% 0.20em;
+  }
+  .aboutPage .logoHeading {
+    font-size: 7.72vw;
+    padding-bottom: 10%;
+  }
+  .aboutPage .aboutTopSection .imageAndDetails {
+    padding-bottom: 10%;
+  }
+  .aboutPage .aboutTopSection .imageAndDetails .details {
+    width: 40%;
+    background-color: transparent;
+    border: 3px solid #2FCAB0;
+  }
+  .aboutPage .aboutTopSection .imageAndDetails .details div {
+    font-size: 3vw;
+    color: #2FCAB0;
+    font-weight: 600;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection .aboutMe {
+    width: 55%;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection .aboutMe p {
+    font-size: 3vw;
+  }
+  .aboutPage .aboutTopSection .aboutMeSection .interests {
+    width: 40%;
+  }
+  .aboutPage .learningPath .timelineWrapper h2 {
+    font-size: 1.75rem;
+  }
+  .aboutPage .learningPath .timelineWrapper .timelineYears .yearItem {
+    width: 18.5vw;
+  }
+  .aboutPage .learningPath .timelineWrapper .timelineYears .yearItem h2 {
+    font-size: 1.75rem;
+  }
+  .aboutPage .learningPath .timeline {
+    border-left: 10px solid #2FCAB0;
+  }
+  .aboutPage .learningPath .timeline .timelineItem p {
+    font-size: 1.5rem;
+  }
+  .aboutPage .skillsSection .skillsIcons img {
+    width: 18%;
+  }
+  .projectsPage .projectGallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projectsPage .projectGallery .projectAnchor {
+    width: 45%;
+  }
+  .projectsPage .projectGallery .projectAnchor .cardInfo h1 {
+    font-size: 4vw;
+  }
+  .projectsPage .projectGallery .projectAnchor .cardInfo p {
+    font-size: 2.5vw;
+  }
+  .projectsPage .projectGallery .projectAnchor .cardInfo .createdWith {
+    font-size: 3.5vw;
+  }
+}
+/*# sourceMappingURL=Tablet.css.map */

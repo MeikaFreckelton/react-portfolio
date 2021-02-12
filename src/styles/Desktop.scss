@@ -1,0 +1,202 @@
+@import 'variables';
+
+@media only screen and (min-width: 780px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    #homePage{
+
+        .typewriter{
+            margin: 10% 3% 0;
+
+            h1{
+                font-size: 3rem;
+                padding: 0 1.5%;
+                &:hover{
+                    font-size: 4rem;
+                }
+            }
+            h2{
+                padding: 0.5% 1.5%;
+                font-size: 2rem;
+            }
+        }
+
+        .homeBottom{
+            margin: 5% 3% 0;
+
+            h3{
+                padding: 0.5% 1.5%; 
+            }
+
+            .underline-transition{
+                background-size: 0% 0.20em;
+
+                &:hover {
+                    background-size: 30% 100%;
+                    
+                }
+
+            }
+        }
+    }
+
+    .aboutPage{
+        .logoHeading{
+            padding-bottom: 5%;
+            font-size: 5vw;
+        }
+
+        .aboutTopSection{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            .imageAndDetails{
+                width: 20%;
+                flex-direction: column;
+                justify-content: flex-start;
+                .profileImage{
+                    margin-bottom: 10%;
+                    width: 100%;
+                    padding-top: 100%;
+                }
+
+                .details{
+                    width: 100%;
+
+                    div{
+                        font-size: 1.65vw;
+                        
+
+                    }
+                }
+            }
+
+            .aboutMeSection{
+                justify-content: space-between;
+                width: 70%;
+
+
+                .aboutMe{
+                    width: 50%;
+                    p{
+                        font-size: 1.5vw;
+                    }
+                }
+                .interests{
+                    width: 35%;
+                    p{
+                        font-size: 1.25rem;
+                    }
+                }
+            }
+        }
+
+        .learningPath{
+
+            .timelineWrapper{
+                flex-direction: column-reverse;
+                padding-top: 0;
+
+                .timelineYears{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    justify-content: space-around;
+
+
+                    .yearItem{
+                        flex-direction: column-reverse;
+                        align-items: center;
+                        justify-content: flex-end;
+
+                        h2{
+                            padding: 0;
+                            text-align: center;
+                        }
+                        p{
+
+                        }
+
+                        .line{
+                            min-width: 1vw;
+                            height: 7.5vh;
+                            margin-top: -4.5vh;
+                        }
+
+                    }
+
+                    
+                }
+                .timeline{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                    border-left: none;
+                    border-bottom: 2vh solid $green;
+                    margin-left: 0;
+                    height: 30vh;
+
+                    .timelineItem{
+                        padding:0;
+                        width: 30%;
+                        text-align: center;
+                        min-height: 5vh;
+                        h2{
+                            font-size: 1.5rem;
+                        }
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .projectsPage{
+        max-width: 65%;
+
+        .heading{
+            font-size: 5vw;
+            margin-bottom: 7.5%;
+        }
+
+
+        .projectGallery{
+
+            .projectAnchor{
+                width: 30%;
+                max-width: 275px;
+
+                .cardInfo{
+
+                    h1{
+                        font-size: 1.75vw;
+                        
+                    }
+                    p{
+                        font-size: 1vw;
+                    }
+                    .createdWith{
+                        font-size: 1.5vw;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
