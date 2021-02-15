@@ -315,6 +315,14 @@
           filter: invert(73%) sepia(48%) saturate(602%) hue-rotate(115deg) brightness(85%) contrast(92%);
 }
 
+.heading {
+  text-align: center;
+  font-weight: 800;
+  font-size: 10vw;
+  color: #2FCAB0;
+  margin-bottom: 10%;
+}
+
 .projectsPage {
   width: 75%;
   margin: 0 auto;
@@ -367,5 +375,22 @@
   color: #2FCAB0;
   font-size: 6vw;
   text-align: left;
+}
+
+.contactPage {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contactPage .success {
+  color: #70ff83;
+  text-align: center;
+  padding: 0 0 10%;
+}
+
+.contactPage .failed {
+  color: #ff383f;
+  text-align: center;
+  padding: 0 0 10%;
 }
 /*# sourceMappingURL=Styles.css.map */
