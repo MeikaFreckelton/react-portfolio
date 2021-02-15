@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom' 
+import { Link } from 'react-router-dom' 
 import Nav from './Nav'
 import birthday from '../images/project-images/birthday.png'
 import midnight from '../images/project-images/midnight-2.png'
@@ -34,6 +34,7 @@ const Projects = () => {
             link: "https://hackathon-halloween-pong.herokuapp.com/", 
             description: "A recreation of the classic game, Pong made during a hackathon.", 
             languages: ["JavaScript", "Express"] },
+        
     ]
 
     const olderProjects = [
@@ -81,7 +82,10 @@ const Projects = () => {
                     
                 </div>
                 <div className="olderProjects">
-                    <h1>Older projects...</h1>
+                    <h1>Design Work</h1>
+                    <Link to="/projects/design">
+                        <button>Go</button>
+                    </Link>
 
                 </div>
             </div>

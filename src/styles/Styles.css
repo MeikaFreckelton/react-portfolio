@@ -453,4 +453,95 @@
   font-size: 5vw;
   padding-bottom: 2%;
 }
+
+.designPage {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.designPage .designCard {
+  margin-bottom: 10%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.designPage .designCard img {
+  height: 20vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: invert(75%);
+          filter: invert(75%);
+}
+
+.designPage .designCard .designDetails {
+  padding: 7%;
+}
+
+.designPage .designCard .designDetails .designTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.designPage .designCard .designDetails .designTitle h1 {
+  font-weight: 800;
+}
+
+.designPage .designCard .designDetails a {
+  color: #2FCAB0;
+}
+
+.designPage .designCard .designDetails i {
+  font-size: 2rem;
+}
+
+.designPage .graphicCards {
+  margin: 5% 0;
+}
+
+.designPage .graphicCards .portfolioCard {
+  width: 100%;
+  margin-bottom: 15%;
+}
+
+.designPage .graphicCards .portfolioCard img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.designPage .graphicCards .portfolioCard .cardDetails {
+  padding: 5%;
+  margin-top: -3%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.designPage .graphicCards .portfolioCard .cardDetails a {
+  color: #2FCAB0;
+  font-size: 2rem;
+}
+
+.designPage .graphicCards .portfolioCard .cardDetails .cardTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.designPage .graphicCards .portfolioCard .cardDetails .cardTitle h1 {
+  font-weight: 800;
+}
 /*# sourceMappingURL=Styles.css.map */

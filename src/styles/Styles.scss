@@ -371,7 +371,7 @@
     }
 }
 
-// projects ----------------------------------------------------
+// contact ----------------------------------------------------
 
 .contactPage{
     width: 75%;
@@ -435,6 +435,85 @@
                 padding-bottom: 2%;
             }
             
+        }
+    }
+}
+
+
+.designPage{
+    width: 75%;
+    margin: 0 auto;
+
+
+    .designCard{
+        margin-bottom: 10%;
+        background-color: rgba(0, 0, 0, 0.05);
+
+        img{
+            height: 20vh;
+            width: 100%;
+            object-fit: cover;
+            filter: invert(75%);
+        }
+
+        .designDetails{
+            
+            padding: 7%;
+
+
+            .designTitle{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                h1{
+                    font-weight: 800;
+                }
+            }
+            a{
+                color: $green;
+            }
+
+            i{
+                font-size: 2rem;
+
+            }
+        }
+    }
+
+    .graphicCards{
+        margin: 5% 0;
+
+
+
+        .portfolioCard{
+            width: 100%;
+            margin-bottom: 15%;
+            img{
+                width: 100%;
+                // width: 70vw;
+                object-fit: contain;
+            }
+            .cardDetails{
+                padding: 5%;
+                margin-top: -3%;
+                background-color: rgba(0, 0, 0, 0.05);
+                a{
+                    color: $green;
+                    font-size: 2rem;
+
+                }
+                .cardTitle{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    h1{
+                        font-weight: 800;
+                    }
+                }
+
+            }
         }
     }
 }
