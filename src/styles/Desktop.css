@@ -185,6 +185,10 @@
   .aboutPage .learningPath .timelineWrapper .timeline .timelineItem p {
     font-size: 1rem;
   }
+  .heading {
+    font-size: 5vw;
+    margin-bottom: 7.5%;
+  }
   .projectsPage {
     max-width: 65%;
   }
@@ -204,6 +208,15 @@
   }
   .projectsPage .projectGallery .projectAnchor .cardInfo .createdWith {
     font-size: 1.5vw;
+  }
+  .contactPage {
+    width: 50vw;
+  }
+  .contactPage #contact-form .formFields label {
+    font-size: 2.5vw;
+  }
+  .contactPage #contact-form .formFields input[type=text], .contactPage #contact-form .formFields textarea {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=Desktop.css.map */

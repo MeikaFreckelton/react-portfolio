@@ -184,6 +184,31 @@
     }
 
 
+    .contactPage{
+
+        .socials{
+
+            font-size: 4rem;
+        }
+
+        #contact-form{
+
+            input[type=submit]{
+                font-size: 1.75rem;
+            }
+
+            .formFields{
+
+                input[type=text], textarea{
+                    font-size: 1.75rem;
+                }
+            }
+        }
+
+
+    }
+
+
 
     
 

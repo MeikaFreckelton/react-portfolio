@@ -166,6 +166,11 @@
         }
     }
 
+    .heading{
+        font-size: 5vw;
+        margin-bottom: 7.5%;
+    }
+
     .projectsPage{
         max-width: 65%;
 
@@ -173,6 +178,7 @@
             font-size: 5vw;
             margin-bottom: 7.5%;
         }
+        
 
 
         .projectGallery{
@@ -193,6 +199,26 @@
                     .createdWith{
                         font-size: 1.5vw;
                     }
+                }
+            }
+        }
+    }
+
+
+    .contactPage{
+        width: 50vw;
+
+        #contact-form{
+
+
+            .formFields{
+
+                label{
+                    font-size: 2.5vw;
+                }
+
+                input[type=text], textarea{
+                    font-size: 1rem;
                 }
             }
         }

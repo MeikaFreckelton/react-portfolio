@@ -393,4 +393,64 @@
   text-align: center;
   padding: 0 0 10%;
 }
+
+.contactPage .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.contactPage .socials a {
+  color: #000;
+}
+
+.contactPage #contact-form input[type=submit] {
+  background-color: #fff;
+  border: 1px solid #2FCAB0;
+  padding: 2% 5%;
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.contactPage #contact-form input[type=submit]:hover {
+  color: #fff;
+  background-color: #2FCAB0;
+}
+
+.contactPage #contact-form .formFields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactPage #contact-form .formFields input[type=text], .contactPage #contact-form .formFields textarea {
+  background-color: rgba(47, 202, 176, 0.5);
+  border: none;
+  padding: 2%;
+  margin-bottom: 5%;
+  font-size: 1rem;
+}
+
+.contactPage #contact-form .formFields textarea {
+  height: 20vh;
+  resize: none;
+}
+
+.contactPage #contact-form .formFields label {
+  font-size: 5vw;
+  padding-bottom: 2%;
+}
 /*# sourceMappingURL=Styles.css.map */

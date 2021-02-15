@@ -387,5 +387,54 @@
         text-align: center;
         padding: 0 0 10%;
     }
-    
+
+    .socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 2rem;
+        margin-bottom: 5%;
+        a{
+            color: #000;
+
+        }
+    }
+
+    #contact-form{
+        input[type=submit]{
+            background-color: #fff;
+            border: 1px solid $green;
+            padding: 2% 5%;
+            width: 100%;
+            margin-bottom: 20%;
+            &:hover{
+                color: #fff;
+                background-color: $green;
+
+            }
+        }
+
+        .formFields{
+            display: flex;
+            flex-direction: column;
+
+            input[type=text], textarea{
+                background-color:rgba(47, 202, 176, 0.5);
+                border: none;
+                padding: 2%;
+                margin-bottom: 5%;
+                font-size: 1rem;
+            }
+            textarea{
+                height: 20vh;
+                resize: none;
+            }
+
+            label{
+                font-size: 5vw;
+                padding-bottom: 2%;
+            }
+            
+        }
+    }
 }

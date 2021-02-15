@@ -134,5 +134,14 @@
   .projectsPage .projectGallery .projectAnchor .cardInfo .createdWith {
     font-size: 3.5vw;
   }
+  .contactPage .socials {
+    font-size: 4rem;
+  }
+  .contactPage #contact-form input[type=submit] {
+    font-size: 1.75rem;
+  }
+  .contactPage #contact-form .formFields input[type=text], .contactPage #contact-form .formFields textarea {
+    font-size: 1.75rem;
+  }
 }
 /*# sourceMappingURL=Tablet.css.map */
