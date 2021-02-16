@@ -29,11 +29,13 @@ const Nav = ({nav}) => {
                 {
                     nav !== "about" && 
                     <div>
-                        <h1 id="navLogo">MEIKA FRECKELTON</h1>
+                        <Link to="/"><h1 id="navLogo">MEIKA FRECKELTON</h1></Link>
                     </div>
                 }
+                <div></div>
                 <div className="navItem icon">
-                    <i class="far fa-eye" onClick={toggleNav}></i>
+                    {/* <i class="far fa-eye" onClick={toggleNav}></i> */}
+                    <i class="fas fa-hamburger" onClick={toggleNav}></i>
                 </div>
             </div>
 

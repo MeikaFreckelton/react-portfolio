@@ -136,19 +136,33 @@
 }
 
 #cookieClick .displayCookie {
-  background-color: rgba(47, 202, 176, 0.1);
+  background-color: rgba(47, 202, 176, 0.5);
   padding: 5%;
   margin-bottom: 5%;
 }
 
 #cookieClick .manualIncrease {
-  background-color: rgba(169, 188, 255, 0.1);
+  background-color: rgba(169, 188, 255, 0.5);
   padding: 5%;
   margin-bottom: 5%;
 }
 
 #cookieClick .manualIncrease h2 {
   margin-bottom: 3%;
+}
+
+#cookieClick .autoIncrease {
+  background-color: rgba(143, 210, 244, 0.5);
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+#cookieClick .autoIncrease h2, #cookieClick .autoIncrease h3, #cookieClick .autoIncrease h4 {
+  margin-bottom: 3%;
+}
+
+#cookieClick .autoIncrease .amount {
+  color: #006aff;
 }
 
 #cookieClick .count {
@@ -167,9 +181,18 @@
   background-color: #fff;
 }
 
-#newPostForm {
+.twoots {
   margin: 0 auto;
-  width: 80vw;
+  width: 80%;
+}
+
+#editPostForm {
+  margin: 0 auto;
+  width: 75%;
+}
+
+#newTwootForm {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,10 +203,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 10%;
+}
+
+#newTwootForm div {
+  width: 80%;
 }
 
 .billWrapper {
-  width: 30vw;
+  width: 80vw;
   margin: 0 auto;
   text-align: center;
 }
@@ -213,9 +241,9 @@
 
 #movie-wrapper #movie-list {
   background-color: aliceblue;
-  width: 20vw;
+  width: 80vw;
   margin: 0 auto;
-  padding: 2% 3%;
+  padding: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,10 +273,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 5%;
 }
 
 #movie-wrapper #movie-list input[type=text] {
-  width: 8vw;
+  width: 55vw;
   padding: 1% 2%;
 }
 

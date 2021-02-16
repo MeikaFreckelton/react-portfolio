@@ -69,7 +69,7 @@ const Projects = () => {
                     PROJECTS
                 </div>
                 <div className="reactProjects">
-                    <Link to="/">React Projects</Link>
+                    <Link to="/projects/react">React Projects</Link>
                 </div>
                 <div className="projectGallery">
                     {

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react' 
 import Nav from './Nav'
+import { Link } from 'react-router-dom'
 
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
             
             <div className="aboutPage">
                 <div className="logoHeading">
-                    MEIKA FRECKELTON
+                    <Link to="/">MEIKA FRECKELTON</Link>
                 </div>
                 <div className="aboutTopSection">
                     <div className="imageAndDetails">

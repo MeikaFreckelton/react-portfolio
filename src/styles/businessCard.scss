@@ -177,13 +177,13 @@ $feature: #006aff;
     text-align: center;
     // background-color: aliceblue;
     .displayCookie{
-        background-color: rgba(47, 202, 176, 0.1);
+        background-color: rgba(47, 202, 176, 0.5);
         padding: 5%;
         margin-bottom: 5%;
     }
 
     .manualIncrease{
-        background-color: rgba(169, 188, 255, 0.1);
+        background-color: rgba(169, 188, 255, 0.5);
         padding: 5%;
         margin-bottom: 5%;
 
@@ -194,7 +194,18 @@ $feature: #006aff;
     }
 
     .autoIncrease{
+        background-color: rgba(143, 210, 244, 0.5);
+        padding: 5%;
+        margin-bottom: 5%;
         
+        h2, h3, h4{
+            margin-bottom: 3%;
+        }
+
+        .amount{
+            color: $feature;
+        }
+
     }
 
     .count{
@@ -219,18 +230,33 @@ $feature: #006aff;
 
 // tweeter :
 
-#newPostForm{
+.twoots{
     margin: 0 auto;
-    width: 80vw;
+    width: 80%;
+}
+
+#editPostForm{
+    margin: 0 auto;
+    width: 75%;
+}
+
+#newTwootForm{
+    // margin: 0 auto;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10%;
+
+    div{
+        width: 80%;
+    }
 }
 
 // bill and tip :
 
 .billWrapper{
-    width: 30vw;
+    width: 80vw;
     margin: 0 auto;
     text-align: center;
 
@@ -264,9 +290,9 @@ $feature: #006aff;
 
     #movie-list{
         background-color: aliceblue;
-        width:20vw;
+        width:80vw;
         margin: 0 auto;
-        padding: 2% 3%;
+        padding: 5%;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -280,12 +306,14 @@ $feature: #006aff;
             display: flex;
             flex-direction: row;
             justify-content: center;
+            margin-top: 5%;
+
 
 
         }
 
         input[type=text]{
-            width: 8vw;
+            width: 55vw;
             padding: 1% 2%;
         }
         input[type=submit]{

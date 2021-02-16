@@ -1,4 +1,5 @@
 import React, {useState} from 'react' 
+import ReactNav from './ReactNav'
 
 
 const MovieList = () => {
@@ -27,6 +28,8 @@ const MovieList = () => {
 
     return(
         <div>
+            <ReactNav />
+
             <div id="movie-wrapper">
 
 

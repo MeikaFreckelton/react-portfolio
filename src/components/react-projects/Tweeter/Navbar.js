@@ -20,8 +20,8 @@ const Nav = () => {
 
     return (
         <div style={divStyle}>
-            <Link style={linkStyle} to="/tweeter">Home</Link>
-            <Link style={linkStyle} to="/tweeter/twoot/new">New Twoot</Link>
+            <Link style={linkStyle} to="/projects/react/tweeter">Home</Link>
+            <Link style={linkStyle} to="/projects/react/tweeter/twoot/new">New Twoot</Link>
         </div>
     )
 }

@@ -40,6 +40,7 @@ const ReactHome = () => {
                     <h1>REACT PROJECTS</h1>
                 </div>
                 <div style={divStyles} className="divStyles">
+                    <Link to="/projects" className="btnStyles">Back to Projects</Link>
                     <Link to="/projects/react/yellingGreeter" className="btnStyles">Yelling Greeter</Link>
                     <Link to="/projects/react/happyMessage" className="btnStyles">Happy Message</Link>
                     <Link to="/projects/react/businesscard" className="btnStyles">Business Card</Link>

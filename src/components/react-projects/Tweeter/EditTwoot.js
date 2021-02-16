@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react'
+import ReactNav from './../ReactNav'
+import Nav from './Navbar'
 
 // Edit the Twoot - Remember to allow the passing of an id here
 
@@ -6,10 +8,10 @@ const EditTwoot = ({history, updateTwoot, twoot, }) => {
 
     const [formState, setFormState] = useState({})
 
-    const divStyles = {
-        display: "grid",
-        width: "100vw"
-    }
+    // const divStyles = {
+    //     display: "grid",
+    //     // width: "100vw"
+    // }
     const inputStyles = {
         width: "70vw",
         margin: ".5em"
@@ -54,14 +56,28 @@ const EditTwoot = ({history, updateTwoot, twoot, }) => {
         })
     },[twoot])
 
+    const heading = {
+        fontFamily: 'PT Sans',
+        fontSize: "4rem",
+        paddingLeft: '5%'
+    }
+
     return (
         <div>
-            <h1>edit twoot</h1>
+            <div>
+
+                <ReactNav />
+                <h1 style={heading}>Tweeter</h1>    
+                <Nav />
+            </div>
+
 
             <div id="editPostForm">
-            <h1>add twoot</h1>
+                <h1>Edit Twoot</h1>
+
+            {/* <h1>add twoot</h1> */}
             <form onSubmit={handleSubmit}>
-                <div style={divStyles} >
+                <div>
                     <label style={labelStyles}>Title</label>
                     <input
                     type="text"
@@ -74,7 +90,7 @@ const EditTwoot = ({history, updateTwoot, twoot, }) => {
 
 
                 </div>
-                <div style={divStyles} >
+                <div>
                     <label style={labelStyles}>Category</label>
                     <input
                     type="text"
@@ -87,7 +103,7 @@ const EditTwoot = ({history, updateTwoot, twoot, }) => {
                     
 
                 </div>
-                <div style={divStyles} >
+                <div>
                     <label style={labelStyles}>Content</label>
                     <textarea
                     form="newPostForm"

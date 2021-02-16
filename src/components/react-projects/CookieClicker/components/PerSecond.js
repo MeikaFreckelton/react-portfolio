@@ -5,6 +5,7 @@ const PerSecond = () => {
     const {store, dispatch} = useGlobalState()
     const {cookieClicks, autoIncrease} = store
     const [error, setError] = useState("")
+    const [disabled, setDisabled] = useState(true)
 
 
     useEffect(() => {
@@ -44,11 +45,10 @@ const PerSecond = () => {
     return(
         <div className="autoIncrease">
             <h2>Automatically Increase Cookie Count</h2>
-            <p>Increase by {autoIncrease} every second</p>
+            <h3>Increase by <span className="amount">{autoIncrease}</span> every second</h3>
 
-            <h2>Increase Cookies Per Second</h2>
-            <h3>{error}</h3>
-            <button className="cookieBtns" onClick={handleClick}>Spend 100 cookies to increase cookies per second by {autoIncrease}</button>
+            <h4>{error}</h4>
+            <button type="button" className="cookieBtns" onClick={handleClick} >Spend 100 cookies to increase cookies per second by {autoIncrease}</button>
         </div>
     )
 }

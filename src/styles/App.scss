@@ -89,7 +89,7 @@
 
 
 
-
+// to do 
 
 .toDoList{
     // background-color: lightpink;
@@ -103,7 +103,7 @@
 }
 
 .todo{
-    width: 30vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -114,7 +114,7 @@
 }
 
 .todoItems{
-    width: 30vw;
+    width: 90vw;
     background-color: aliceblue;
     padding: 3%;
     margin: 3% auto;
@@ -160,7 +160,7 @@
 .buttons{
     margin-bottom: 3%;
     // background-color: aqua;
-    width: 10vw;
+    width: 40vw;
 
     button{
         margin-left: 5%;

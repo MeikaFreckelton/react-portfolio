@@ -1,9 +1,11 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
+import ReactNav from './../ReactNav'
+import Nav from './Navbar'
 // Display the one Twoot  - Remember to allow the passing of an id here
 
 
-const Twoot = ({history, twoot, deleteTwoot, showControls}) => {
+const Twoot = ({ history, twoot, deleteTwoot, showControls, type }) => {
     const lightHeartStyles = {
         fontSize: "1rem"
     }
@@ -26,32 +28,34 @@ const Twoot = ({history, twoot, deleteTwoot, showControls}) => {
         }
 
         const divStyles={
-            padding: '2%',
+            padding: '5%',
             backgroundColor: "#f5f5f5",
             margin: '2%',
             fontFamily: 'PT Sans',
-            width: "30vw"
+            width: "80vw"
 
 
         }
         const categoryStyles = {
-            color: "#6e6e6e"
+            color: "#6e6e6e",
+            margin: "3% 0"
         }
 
         const divCentered = {
             display: 'flex',
+            flexDirection: "column",
             justifyContent: 'center'
         }
 
         const handleDelete = (e) => {
             e.preventDefault()
             deleteTwoot(twoot._id)
-            history.push("/tweeter")
+            history.push("/projects/react/tweeter")
         }
 
         const handleEdit = (e) => {
             e.preventDefault()
-            history.push(`/tweeter/twoot/edit/${twoot._id}`)
+            history.push(`/projects/react/tweeter/twoot/edit/${twoot._id}`)
         }
         
 
@@ -84,6 +88,15 @@ const Twoot = ({history, twoot, deleteTwoot, showControls}) => {
 
         }
 
+        const contentStyles = {
+            padding: "3% 0"
+        }
+        const heading = {
+            fontFamily: 'PT Sans',
+            fontSize: "4rem",
+            paddingLeft: '5%'
+        }
+
         
         
 
@@ -94,13 +107,24 @@ const Twoot = ({history, twoot, deleteTwoot, showControls}) => {
 
         return (
             <div style={divCentered}>
+                {
+                    type === "single" && 
+                    <div>
+
+                        <ReactNav />
+                        <h1 style={heading}>Tweeter</h1>    
+                        <Nav />
+                    </div>
+
+
+                }
                 <div style={divStyles}>
-                    <Link style={linkStyles} to={`/tweeter/twoot/${twoot._id}`} >
+                    <Link style={linkStyles} to={`/projects/react/tweeter/twoot/${twoot._id}`} >
                         <h1>{title}</h1>
                     </Link>
                     <h3 style={categoryStyles}>{category}</h3>
                     <h5>{modified_date.toLocaleString()}</h5>
-                    <p>{content}</p>
+                    <p style={contentStyles}>{content}</p>
                     <div style={divLikesStyles}>
                         <p style={likesStyles}>{likes}</p>
                         <button onClick={handleLikes} style={heartStyles}>{heart}</button>

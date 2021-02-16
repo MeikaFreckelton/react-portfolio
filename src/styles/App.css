@@ -100,7 +100,7 @@
 }
 
 .todo {
-  width: 30vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +118,7 @@
 }
 
 .todoItems {
-  width: 30vw;
+  width: 90vw;
   background-color: aliceblue;
   padding: 3%;
   margin: 3% auto;
@@ -168,7 +168,7 @@
 
 .buttons {
   margin-bottom: 3%;
-  width: 10vw;
+  width: 40vw;
 }
 
 .buttons button {

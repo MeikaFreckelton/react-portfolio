@@ -116,13 +116,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 3%;
+  padding: 5%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.topBar .fa-eye {
+.topBar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.topBar .fa-eye, .topBar i {
   font-size: 1.5rem;
 }
 
@@ -131,8 +136,9 @@
   margin: 0 auto;
 }
 
-.aboutPage .logoHeading {
+.aboutPage .logoHeading a {
   color: #2FCAB0;
+  text-decoration: none;
   font-size: 12vw;
   font-weight: 800;
   padding-bottom: 10%;
@@ -336,6 +342,17 @@
   margin-bottom: 10%;
 }
 
+.projectsPage .reactProjects {
+  margin-bottom: 5%;
+}
+
+.projectsPage .reactProjects a {
+  text-decoration: none;
+  background-color: #2FCAB0;
+  color: #fff;
+  padding: 1.5% 5%;
+}
+
 .projectsPage .projectGallery .projectAnchor {
   text-decoration: none;
 }
@@ -352,6 +369,8 @@
   height: 20vh;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-filter: invert(75%);
+          filter: invert(75%);
 }
 
 .projectsPage .projectGallery .projectCard .cardInfo {
@@ -488,6 +507,8 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-filter: invert(75%);
+          filter: invert(75%);
 }
 
 .designPage .designCard .designDetails {

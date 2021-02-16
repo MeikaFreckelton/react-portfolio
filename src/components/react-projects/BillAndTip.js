@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import ReactNav from './ReactNav'
 
 
 const BillAndTip = () => {
@@ -26,6 +27,8 @@ const BillAndTip = () => {
 
   return(
     <div>
+        <ReactNav />
+
       <div className="billWrapper">
         <div className="heading bill-heading">
           <h1>Bill and Tip Calculator</h1>

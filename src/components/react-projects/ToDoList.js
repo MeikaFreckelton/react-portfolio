@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import ReactNav from './ReactNav'
+
 
 const ToDoList = () => {
 
@@ -63,6 +65,7 @@ const ToDoList = () => {
 
     return(
         <div>
+            <ReactNav />
             <div className="heading" >
                 <h1>To Do List</h1>
             </div>
