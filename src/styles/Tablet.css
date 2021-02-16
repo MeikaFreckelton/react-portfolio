@@ -143,5 +143,46 @@
   .contactPage #contact-form .formFields input[type=text], .contactPage #contact-form .formFields textarea {
     font-size: 1.75rem;
   }
+  .designPage h2 {
+    font-size: 3.75vw;
+  }
+  .designPage p {
+    font-size: 2.75vw;
+  }
+  .designPage .equinox a {
+    font-size: 1.5rem;
+  }
+  .designPage .equinoxCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .designPage .equinoxCards .designCard {
+    width: 47%;
+  }
+  .designPage .equinoxCards .designCard a {
+    margin-left: 2%;
+  }
+  .designPage .designCard .designDetails {
+    padding: 7%;
+  }
+  .designPage .graphicCards .portfolioCard .cardDetails p {
+    font-size: 3vw;
+  }
+  .designPage .graphicCards .portfolioCard .cardDetails i {
+    font-size: 2rem;
+  }
+  .designPage .graphicCards .portfolioCard .cardDetails .sub {
+    font-size: 3.5vw;
+  }
 }
 /*# sourceMappingURL=Tablet.css.map */

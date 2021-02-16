@@ -320,7 +320,7 @@
   font-weight: 800;
   font-size: 10vw;
   color: #2FCAB0;
-  margin-bottom: 10%;
+  margin: 5% 0 10%;
 }
 
 .projectsPage {
@@ -352,18 +352,15 @@
   height: 20vh;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-filter: invert(75%);
-          filter: invert(75%);
 }
 
 .projectsPage .projectGallery .projectCard .cardInfo {
-  padding: 7%;
+  padding: 5%;
 }
 
-.projectsPage .projectGallery .projectCard .cardInfo h1 {
+.projectsPage .projectGallery .projectCard .cardInfo h2 {
   font-weight: 800;
   padding-bottom: 5%;
-  font-size: 8vw;
 }
 
 .projectsPage .projectGallery .projectCard .cardInfo p {
@@ -373,7 +370,7 @@
 .projectsPage .projectGallery .projectCard .cardInfo .createdWith {
   padding-top: 5%;
   color: #2FCAB0;
-  font-size: 6vw;
+  font-size: 4.5vw;
   text-align: left;
 }
 
@@ -454,9 +451,31 @@
   padding-bottom: 2%;
 }
 
-.designPage {
-  width: 75%;
-  margin: 0 auto;
+.designPage p {
+  font-size: 4vw;
+}
+
+.designPage h1, .designPage h2 {
+  font-weight: 800;
+}
+
+.designPage .equinox {
+  margin-bottom: 6%;
+}
+
+.designPage .equinox p {
+  margin: 3% 0 4%;
+}
+
+.designPage .equinox a {
+  text-decoration: none;
+  background-color: #2FCAB0;
+  color: #fff;
+  padding: 1.5% 5%;
+}
+
+.designPage .equinox h1 {
+  font-weight: 800;
 }
 
 .designPage .designCard {
@@ -469,12 +488,10 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-filter: invert(75%);
-          filter: invert(75%);
 }
 
 .designPage .designCard .designDetails {
-  padding: 7%;
+  padding: 5%;
 }
 
 .designPage .designCard .designDetails .designTitle {
@@ -490,8 +507,9 @@
           justify-content: space-between;
 }
 
-.designPage .designCard .designDetails .designTitle h1 {
+.designPage .designCard .designDetails .designTitle h2 {
   font-weight: 800;
+  margin-bottom: 3%;
 }
 
 .designPage .designCard .designDetails a {
@@ -499,7 +517,7 @@
 }
 
 .designPage .designCard .designDetails i {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .designPage .graphicCards {
@@ -519,13 +537,28 @@
 
 .designPage .graphicCards .portfolioCard .cardDetails {
   padding: 5%;
-  margin-top: -3%;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
 .designPage .graphicCards .portfolioCard .cardDetails a {
   color: #2FCAB0;
-  font-size: 2rem;
+  margin-left: 5%;
+}
+
+.designPage .graphicCards .portfolioCard .cardDetails p {
+  margin-bottom: 1.5%;
+}
+
+.designPage .graphicCards .portfolioCard .cardDetails i {
+  font-size: 1.5rem;
+}
+
+.designPage .graphicCards .portfolioCard .cardDetails .sub {
+  color: #2FCAB0;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 4.75vw;
+  margin-bottom: 0;
 }
 
 .designPage .graphicCards .portfolioCard .cardDetails .cardTitle {
@@ -541,7 +574,7 @@
           justify-content: space-between;
 }
 
-.designPage .graphicCards .portfolioCard .cardDetails .cardTitle h1 {
-  font-weight: 800;
+.designPage .graphicCards .portfolioCard .cardDetails .cardTitle h2 {
+  margin-bottom: 3%;
 }
 /*# sourceMappingURL=Styles.css.map */

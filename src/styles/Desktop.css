@@ -196,6 +196,9 @@
     font-size: 5vw;
     margin-bottom: 7.5%;
   }
+  .projectsPage .projectGallery {
+    margin-bottom: 5%;
+  }
   .projectsPage .projectGallery .projectAnchor {
     width: 30%;
     max-width: 275px;
@@ -204,7 +207,7 @@
     font-size: 1.75vw;
   }
   .projectsPage .projectGallery .projectAnchor .cardInfo p {
-    font-size: 1vw;
+    font-size: 0.75rem;
   }
   .projectsPage .projectGallery .projectAnchor .cardInfo .createdWith {
     font-size: 1.5vw;
@@ -217,6 +220,57 @@
   }
   .contactPage #contact-form .formFields input[type=text], .contactPage #contact-form .formFields textarea {
     font-size: 1rem;
+  }
+  .designPage .heading {
+    margin-top: 0;
+    font-size: 4vw;
+  }
+  .designPage p {
+    font-size: 1rem;
+  }
+  .designPage .equinox a {
+    font-size: 1rem;
+  }
+  .designPage .equinoxCards .designCard {
+    width: 30%;
+  }
+  .designPage .equinoxCards .designCard h2 {
+    font-size: 1.15rem;
+  }
+  .designPage .equinoxCards .designCard p {
+    font-size: 0.75rem;
+  }
+  .designPage .graphicCards {
+    -moz-column-count: 3;
+    -moz-column-gap: 3%;
+    -moz-column-width: 30%;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 3%;
+    -webkit-column-width: 30%;
+    -webkit-column-break-inside: avoid;
+    /* Firefox */
+    break-inside: avoid;
+    /* IE 10+ */
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 30%;
+  }
+  .designPage .graphicCards .portfolioCard {
+    width: 100%;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .designPage .graphicCards .portfolioCard .cardDetails .cardTitle h2 {
+    font-size: 1.15rem;
+  }
+  .designPage .graphicCards .portfolioCard .cardDetails .cardTitle i {
+    font-size: 1.5rem;
+  }
+  .designPage .graphicCards .portfolioCard .cardDetails p {
+    font-size: 0.75rem;
+  }
+  .designPage .graphicCards .portfolioCard .cardDetails .sub {
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=Desktop.css.map */

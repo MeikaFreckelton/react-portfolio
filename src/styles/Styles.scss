@@ -305,7 +305,7 @@
     font-weight: 800;
     font-size: 10vw;
     color: $green;
-    margin-bottom: 10%;
+    margin: 5% 0 10%;
 
 }
 
@@ -342,15 +342,14 @@
                 width: 100%;
                 height: 20vh;
                 object-fit: cover;
-                filter: invert(75%);
+                // filter: invert(75%);
             }
 
             .cardInfo{
-                padding: 7%;
-                h1{
+                padding: 5%;
+                h2{
                     font-weight: 800;
                     padding-bottom: 5%;
-                    font-size: 8vw;
                     
                 }
 
@@ -362,7 +361,7 @@
                 .createdWith{
                     padding-top: 5%;
                     color: $green;
-                    font-size: 6vw;
+                    font-size: 4.5vw;
                     text-align: left;
                 }
 
@@ -441,8 +440,39 @@
 
 
 .designPage{
-    width: 75%;
-    margin: 0 auto;
+    // width: 75%;
+    // margin: 0 auto;
+
+    p{
+        font-size: 4vw;
+    }
+    h1, h2{
+        font-weight: 800;
+    }
+
+
+
+    .equinox{
+        margin-bottom: 6%;
+        
+        
+
+        p{
+            margin: 3% 0 4%;
+        }
+
+        a{
+            text-decoration: none;
+            background-color: $green;
+            color: #fff;
+            padding: 1.5% 5%;
+        }
+
+        h1{
+            font-weight: 800;
+        }
+
+    }
 
 
     .designCard{
@@ -453,12 +483,12 @@
             height: 20vh;
             width: 100%;
             object-fit: cover;
-            filter: invert(75%);
+            // filter: invert(75%);
         }
 
         .designDetails{
             
-            padding: 7%;
+            padding: 5%;
 
 
             .designTitle{
@@ -466,8 +496,9 @@
                 flex-direction: row;
                 justify-content: space-between;
 
-                h1{
+                h2{
                     font-weight: 800;
+                    margin-bottom: 3%;
                 }
             }
             a{
@@ -475,7 +506,7 @@
             }
 
             i{
-                font-size: 2rem;
+                font-size: 1.5rem;
 
             }
         }
@@ -496,21 +527,45 @@
             }
             .cardDetails{
                 padding: 5%;
-                margin-top: -3%;
+                // margin-top: -3%;
                 background-color: rgba(0, 0, 0, 0.05);
                 a{
                     color: $green;
-                    font-size: 2rem;
+                    margin-left: 5%;
+
 
                 }
+                p{
+                    margin-bottom: 1.5%;
+
+                }
+
+                i{
+                    font-size: 1.5rem;
+    
+                }
+
+                .sub{
+                    color: $green;
+                    font-weight: 500;
+                    font-style: italic;
+                    font-size: 4.75vw;
+                    margin-bottom: 0;
+                }
+
                 .cardTitle{
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
 
-                    h1{
-                        font-weight: 800;
+                    h2{
+                        margin-bottom: 3%;
+
                     }
+
+                    
+
+                    
                 }
 
             }

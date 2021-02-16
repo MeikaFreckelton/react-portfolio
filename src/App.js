@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch, Router } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 // import Nav from './Nav'
 
@@ -8,6 +8,8 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import DesignProjects from './components/DesignProjects'
+
+import ReactHome from './components/react-projects/ReactHome'
 
 import './styles/Styles.css'
 import './styles/Tablet.css'
@@ -23,6 +25,7 @@ const App = () => {
 
 
         <Switch>
+          <Route exact path="/projects/react" component={ReactHome} />
           <Route exact path="/projects/design" component={DesignProjects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/projects" component={Projects} />

@@ -209,6 +209,72 @@
     }
 
 
+    .designPage{
+
+        h2{
+            font-size: 3.75vw;
+        }
+
+
+        p{
+            font-size: 2.75vw;
+            
+        }
+
+        .equinox{
+            a{
+                font-size: 1.5rem;
+            }
+        }
+        .equinoxCards{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .designCard{
+                width: 47%;
+
+                a{
+                    margin-left: 2%;
+                }
+            }
+        }
+
+        .designCard{
+
+            .designDetails{
+                padding: 7%;
+            }
+        }
+
+        .graphicCards{
+
+
+            .portfolioCard{
+
+
+                .cardDetails{
+
+                    p{
+                        font-size: 3vw;
+                    }
+
+                    i{
+                        font-size: 2rem;
+                    }
+
+                    .sub{
+
+                        font-size: 3.5vw;
+                    }
+                }
+            }
+        }
+    }
+
+
 
     
 

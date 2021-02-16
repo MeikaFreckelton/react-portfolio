@@ -6,7 +6,7 @@ import midnight from '../images/project-images/midnight-2.png'
 import petplace from '../images/project-images/petplace.png'
 import dotdev from '../images/project-images/dotdev.png'
 import pong from '../images/project-images/pong.png'
-
+import DesignProjects from './DesignProjects'
 
 
 const Projects = () => {
@@ -37,10 +37,7 @@ const Projects = () => {
         
     ]
 
-    const olderProjects = [
-        {name: "Dot Developer", image:"", link: "", description: "", languages: "" },
-
-    ]
+   
 
     const displayProjects = ( name, image, link, description, languages ) => {
 
@@ -50,7 +47,7 @@ const Projects = () => {
                 <div className="projectCard">
                     <img src={image} alt={name} />
                     <div className="cardInfo">
-                        <h1>{name.toUpperCase()}</h1>
+                        <h2>{name.toUpperCase()}</h2>
                         <p>{description}</p>
                         <p className="createdWith" >Created using: { languages.join(', ')}</p>
                         
@@ -69,7 +66,10 @@ const Projects = () => {
             <Nav />
             <div className="projectsPage">
                 <div className="heading">
-                    MY PROJECTS
+                    PROJECTS
+                </div>
+                <div className="reactProjects">
+                    <Link to="/">React Projects</Link>
                 </div>
                 <div className="projectGallery">
                     {
@@ -82,10 +82,8 @@ const Projects = () => {
                     
                 </div>
                 <div className="olderProjects">
-                    <h1>Design Work</h1>
-                    <Link to="/projects/design">
-                        <button>Go</button>
-                    </Link>
+                    {/* <h1>Design Work</h1> */}
+                    <DesignProjects />
 
                 </div>
             </div>

@@ -1,0 +1,305 @@
+$feature: #006aff;
+
+
+*{
+    font-family: Raleway;
+}
+
+.heading{
+    text-align: center;
+    margin: 3% 0 2%;
+
+
+}
+
+
+// nav :
+
+.ulStyles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5%;
+
+
+
+}
+
+.liStyles{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    width: 33%;
+    text-align: center;
+    font-size: 1rem;
+    padding:  2% 3%;
+
+
+    &:hover{
+        color: black;
+    }
+}
+
+
+
+
+// yelling greeter : --------------------------------------------------
+
+#yellingGreeter{
+
+    text-align: center;
+
+    #message{
+        background-color: #ff7575;
+        width: 30vw;
+        margin: 2% auto;
+        padding: 3%; 
+    }
+    input{
+        padding: 0.15% 5% 0.15% 0.5%; 
+    }
+
+    .yellBtn{
+        border: 1px solid #ff0000;
+        border-radius: 3px;
+        background-color: rgba(255, 117, 117, 0.3);
+        padding: 0.18% 3%;
+        margin-left: 1%;
+    }
+}
+
+
+
+
+
+
+// happy message : --------------------------------------------------
+
+#happyMessage{
+    text-align: center;
+
+
+    #randomMessage{
+        background-color: #FAFAD3;
+        width: 30vw;
+        margin: 2% auto;
+        padding: 3%;
+    }
+    #happyBtn{
+        border: 1px solid #ffff00;
+        background-color: rgba(250, 250, 211, 0.25);
+        border-radius: 3px;
+        padding: 0.18% 3%;
+
+    }
+}
+
+
+
+
+
+
+
+// business card : --------------------------------------------------
+
+#businessCardWrapper{
+    margin-left: 5em;
+    display: flex;
+
+    .business-btn{
+        color: $feature;
+        border-radius: 3px;
+        background-color: #fff;
+        border: 1px solid $feature;
+        padding: 2% 7%;
+        margin-top: 3%;
+    }
+
+
+    #businessCard{
+    
+        #name{
+            font-size: 1.75em;
+            margin:  0.35em 0.6em 0;
+            font-weight: 800;
+        }
+        #title{
+            margin: 0 0.9em;
+            font-size: 1.25em;
+            font-style: italic;
+            font-weight: 700;
+            border-bottom: 2px solid;
+            padding-bottom: 3%;
+    
+        }
+        #phone{
+            margin: 0.7em 1em 0.3em;
+            font-size: 1em
+        }
+        #email{
+            margin: 0.5em 1em;
+            font-size: 1em
+        }
+        #address{
+            margin: 0.5em 1em;
+            font-size: 1em
+        }
+    }
+
+    
+
+    .cardAndForm{
+        display: flex;
+        flex-direction: row;
+        background-color: aliceblue;
+        padding: 3%;
+        margin: 0 auto;
+        
+        .bCard{
+            margin-right: 12%;
+        }
+
+        .bForm{
+            width: 25vw;
+
+            label{
+                min-width: 10vw;
+                margin-right: 3%;
+            }
+            
+                
+
+        
+            
+            
+        }
+    }
+
+
+    
+}
+
+
+// cookie clicker :
+
+#cookieClick{
+    margin: 0 auto;
+    width: 30vw;
+    padding: 2% 2% 3%;
+    text-align: center;
+    background-color: aliceblue;
+
+    .count{
+        color: $feature;
+    }
+
+    .cookieBtns{
+        color: $feature;
+        
+        border: 1px solid $feature;
+        border-radius: 3px;
+        padding: 2% 5%;
+        cursor: pointer;
+
+    }
+    button{
+        background-color: #fff;
+    }
+
+}
+
+
+// tweeter :
+
+#newPostForm{
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+// bill and tip :
+
+.billWrapper{
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+
+    .btn{
+        color: $feature;
+        border: 1px solid $feature;
+        border-radius: 3px;
+        padding: 1% 5%;
+        cursor: pointer;
+        background-color: #fff;
+    }
+
+    .bill-heading{
+        margin: 10%;
+    }
+
+    .total{
+        color: $feature;
+    }
+
+    form{
+        background-color: aliceblue;
+        padding: 3%;
+        text-align: center;
+    }
+}
+
+// movie list :
+
+#movie-wrapper{
+
+    #movie-list{
+        background-color: aliceblue;
+        width:20vw;
+        margin: 0 auto;
+        padding: 2% 3%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.5rem;
+
+        li{
+            margin-bottom: 2%;
+        }
+        form{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+
+        }
+
+        input[type=text]{
+            width: 8vw;
+            padding: 1% 2%;
+        }
+        input[type=submit]{
+            color: $feature;
+            background-color: #fff;
+            border: 1px solid $feature;
+            border-radius: 3px;
+            padding: 1.2% 5%;
+            margin-left: 3%;
+            min-width: 5vw;
+
+
+        }
+        
+    }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+

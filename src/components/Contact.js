@@ -1,7 +1,6 @@
 import React, { useState } from 'react' 
 import Nav from './Nav'
 import emailjs from 'emailjs-com';
-import { Link } from 'react-router-dom'
 
 
 const Contact = () => {
