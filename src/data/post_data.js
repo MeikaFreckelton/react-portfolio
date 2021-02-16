@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-export default [
+const blogData = [
     {
         _id: 1,
         title: "React is the best",
@@ -40,4 +40,6 @@ export default [
         content:
             "Who doesn't love pizza? I found the best pizza in town yesterday and I'm so excited about it!"
     }
-   ]
+]
+
+   export default blogData

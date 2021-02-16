@@ -5,7 +5,7 @@ import AddTwoot from './AddTwoot'
 import EditTwoot from './EditTwoot'
 import Twoot from './Twoot'
 import Twoots from './Twoots'
-import blogData from './../../data/post_data'
+import blogData from './../../../data/post_data'
 
 
 const Tweeter = () => {

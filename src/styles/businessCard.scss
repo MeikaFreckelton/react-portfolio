@@ -1,5 +1,5 @@
 $feature: #006aff;
-
+@import 'variables';
 
 *{
     font-family: Raleway;
@@ -12,32 +12,9 @@ $feature: #006aff;
 
 }
 
-
-// nav :
-
-.ulStyles{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 5%;
-
-
-
-}
-
-.liStyles{
-    text-decoration: none;
-    list-style-type: none;
-    color: #000;
-    width: 33%;
-    text-align: center;
-    font-size: 1rem;
-    padding:  2% 3%;
-
-
-    &:hover{
-        color: black;
+.heading{
+    h1{
+        font-size: 10vw;
     }
 }
 
@@ -47,12 +24,15 @@ $feature: #006aff;
 // yelling greeter : --------------------------------------------------
 
 #yellingGreeter{
+    width: 75%;
+    margin: 0 auto;
 
     text-align: center;
 
+
     #message{
-        background-color: #ff7575;
-        width: 30vw;
+        // background-color: #ff7575;
+        width: 100%;
         margin: 2% auto;
         padding: 3%; 
     }
@@ -78,19 +58,22 @@ $feature: #006aff;
 
 #happyMessage{
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
 
 
     #randomMessage{
         background-color: #FAFAD3;
-        width: 30vw;
-        margin: 2% auto;
-        padding: 3%;
+        width: 100%;
+        margin: 10% auto;
+        padding: 5%;
     }
     #happyBtn{
         border: 1px solid #ffff00;
-        background-color: rgba(250, 250, 211, 0.25);
-        border-radius: 3px;
-        padding: 0.18% 3%;
+        background-color: #fff;
+        // border-radius: 3px;
+        padding: 3%;
+        font-size: 1.5rem;
 
     }
 }
@@ -104,14 +87,16 @@ $feature: #006aff;
 // business card : --------------------------------------------------
 
 #businessCardWrapper{
-    margin-left: 5em;
+    // width: 75%;
+    margin: 0 auto;
+    // margin-left: 5em;
     display: flex;
 
     .business-btn{
-        color: $feature;
+        color: #000;
         border-radius: 3px;
         background-color: #fff;
-        border: 1px solid $feature;
+        border: 1px solid $green;
         padding: 2% 7%;
         margin-top: 3%;
     }
@@ -151,8 +136,7 @@ $feature: #006aff;
 
     .cardAndForm{
         display: flex;
-        flex-direction: row;
-        background-color: aliceblue;
+        flex-direction: column;
         padding: 3%;
         margin: 0 auto;
         
@@ -161,10 +145,13 @@ $feature: #006aff;
         }
 
         .bForm{
-            width: 25vw;
+            background-color: rgba(47, 202, 176, 0.1);
+            padding: 5%;
+
+            
 
             label{
-                min-width: 10vw;
+                min-width: 40vw;
                 margin-right: 3%;
             }
             
@@ -185,10 +172,30 @@ $feature: #006aff;
 
 #cookieClick{
     margin: 0 auto;
-    width: 30vw;
-    padding: 2% 2% 3%;
+    width: 80vw;
+    // padding: 2% 2% 3%;
     text-align: center;
-    background-color: aliceblue;
+    // background-color: aliceblue;
+    .displayCookie{
+        background-color: rgba(47, 202, 176, 0.1);
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .manualIncrease{
+        background-color: rgba(169, 188, 255, 0.1);
+        padding: 5%;
+        margin-bottom: 5%;
+
+        h2{
+            margin-bottom: 3%;
+        }
+
+    }
+
+    .autoIncrease{
+        
+    }
 
     .count{
         color: $feature;

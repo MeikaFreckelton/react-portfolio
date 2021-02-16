@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import ReactNav from './ReactNav'
+
 
 const YellingGreeter = (props) => {
 
@@ -17,6 +19,8 @@ const YellingGreeter = (props) => {
 
     return (
         <div>
+            <ReactNav />
+            
             <div className="heading">
                 <h1>Enter a message below and have it yelled back at you </h1>
             </div>

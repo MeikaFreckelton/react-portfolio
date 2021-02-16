@@ -42,7 +42,7 @@ const PerSecond = () => {
     }
 
     return(
-        <div>
+        <div className="autoIncrease">
             <h2>Automatically Increase Cookie Count</h2>
             <p>Increase by {autoIncrease} every second</p>
 

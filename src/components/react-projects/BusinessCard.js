@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import html2canvas from 'html2canvas'
-import './../styles/businessCard.css'
+// import './../styles/businessCard.css'
+import ReactNav from './ReactNav'
 
 
 const BusinessCard = () => {
@@ -9,7 +10,7 @@ const BusinessCard = () => {
     const [phone, setPhone] = useState("1234567890")
     const [email, setEmail] = useState("johnsmith@gmail.com")
     const [address, setAddress] = useState("Sydney")
-    const [hex, setHex] = useState("lightBlue")
+    const [hex, setHex] = useState("#A9BCFF")
     const [fontHex, setFontHex] = useState("black")
 
 
@@ -60,7 +61,6 @@ const BusinessCard = () => {
     }
 
     const changeHandler = (e) => {
-        // console.log(e.target.value)
         
         if (e.target.name === "hex"){
             setHex(e.target.value)
@@ -73,6 +73,8 @@ const BusinessCard = () => {
 
     return (
         <div>
+            <ReactNav />
+
 
         
         
@@ -82,94 +84,94 @@ const BusinessCard = () => {
             <div id="businessCardWrapper">
 
                 <div className="cardAndForm">
-                <div className="bCard">
-                    <div id="businessCard" style={bgColor}>
-                        <p id="name">{name}</p>
-                        <p id="title">{title}</p>
-                        <p id="phone">{phone}</p>
-                        <p id="email">{email}</p>
-                        <p id="address">{address}</p>
+                    <div className="bCard">
+                        <div id="businessCard" style={bgColor}>
+                            <p id="name">{name}</p>
+                            <p id="title">{title}</p>
+                            <p id="phone">{phone}</p>
+                            <p id="email">{email}</p>
+                            <p id="address">{address}</p>
 
-                    </div>
+                        </div>
 
                     </div>
 
                     <div className="bForm">
-                    <form className="businessForm">
-                        <div style={divStyles} className="colorPicker">
-                            <label>
-                                Background Colour
-                            </label>
-                            <input 
-                            type="color"
-                            value={hex}
-                            onChange={changeHandler}
-                            name="hex"
-                            />
-                        </div>
-                        <div style={divStyles} className="colorPicker">
-                            <label>
-                                Font Color
-                            </label>
-                            <input 
-                            type="color"
-                            value={fontHex}
-                            onChange={changeHandler}
-                            name="fontHex"
-                            />
+                        <form className="businessForm">
+                            <div style={divStyles} className="colorPicker">
+                                <label>
+                                    Background Colour
+                                </label>
+                                <input 
+                                type="color"
+                                value={hex}
+                                onChange={changeHandler}
+                                name="hex"
+                                />
+                            </div>
+                            <div style={divStyles} className="colorPicker">
+                                <label>
+                                    Font Color
+                                </label>
+                                <input 
+                                type="color"
+                                value={fontHex}
+                                onChange={changeHandler}
+                                name="fontHex"
+                                />
 
-                        </div>
-                        
-                        
-                        <div style={divStyles} className="form-">
-                            <label>
-                                Full Name
-                            </label>
-                            <input
-                                type="text"
-                                name="name"
-                                onChange={handleChange}
-                                placeholder="name here..."
-                            />
-                        </div>
-                        <div style={divStyles} className="form-">
-                            <label>Title</label>
-                            <input
-                                type="text"
-                                name="title"
-                                onChange={handleChange}
-                                placeholder="title here..."
-                            />
-                        </div>
-                        <div style={divStyles} className="form-">
-                            <label>Phone Number</label>
-                            <input
-                                type="text"
-                                name="phone"
-                                onChange={handleChange}
-                                placeholder="phone number here..."
-                            />
-                        </div>
-                        <div style={divStyles} className="form-">
-                            <label>Email</label>
+                            </div>
+                            
+                            
+                            <div style={divStyles} className="form-">
+                                <label>
+                                    Full Name
+                                </label>
                                 <input
                                     type="text"
-                                    name="email"
+                                    name="name"
                                     onChange={handleChange}
-                                    placeholder="email here..."
-                            />
-                        </div>
-                        <div style={divStyles} className="form-">
-                            <label>Address</label>
-                            <input
-                                type="text"
-                                name="address"
-                                onChange={handleChange}
-                                placeholder="address here..."
-                            />
-                        </div>
-                    </form>
-                    <button className="business-btn" onClick={saveAsPng}>save as a png</button>
+                                    placeholder="name here..."
+                                />
+                            </div>
+                            <div style={divStyles} className="form-">
+                                <label>Title</label>
+                                <input
+                                    type="text"
+                                    name="title"
+                                    onChange={handleChange}
+                                    placeholder="title here..."
+                                />
+                            </div>
+                            <div style={divStyles} className="form-">
+                                <label>Phone Number</label>
+                                <input
+                                    type="text"
+                                    name="phone"
+                                    onChange={handleChange}
+                                    placeholder="phone number here..."
+                                />
+                            </div>
+                            <div style={divStyles} className="form-">
+                                <label>Email</label>
+                                    <input
+                                        type="text"
+                                        name="email"
+                                        onChange={handleChange}
+                                        placeholder="email here..."
+                                />
+                            </div>
+                            <div style={divStyles} className="form-">
+                                <label>Address</label>
+                                <input
+                                    type="text"
+                                    name="address"
+                                    onChange={handleChange}
+                                    placeholder="address here..."
+                                />
+                            </div>
+                        </form>
+                        <button className="business-btn" onClick={saveAsPng}>save as a png</button>
                     </div>
 
 

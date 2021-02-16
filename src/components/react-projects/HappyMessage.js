@@ -1,4 +1,7 @@
 import React, {useState} from 'react'
+import ReactNav from './ReactNav'
+
+
 
 const HappyMessage = () => {
     let messages = [
@@ -23,6 +26,8 @@ const HappyMessage = () => {
 
     return (
         <div>
+            <ReactNav />
+
             <div className="heading">
                 <h1>Click to receive a random happy message</h1>
             </div>
@@ -30,9 +35,13 @@ const HappyMessage = () => {
             
             <div id="happyMessage">
                 <button onClick={printMessage} id="happyBtn" >Get a happy message</button>
-                <div id="randomMessage">
-                    <h2>{random}</h2>
-                </div>
+                {
+                    random && 
+                    <div id="randomMessage">
+                        <h2>{random}</h2>
+                    </div>
+                }
+                
                 
             </div>
             

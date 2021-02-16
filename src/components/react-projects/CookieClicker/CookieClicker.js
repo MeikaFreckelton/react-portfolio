@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react'
+import ReactNav from './../ReactNav'
 
 import DisplayCount from './components/DisplayCount'
 import PerClick from './components/PerClick'
@@ -24,6 +25,8 @@ const CookieClicker = () => {
     <div>
       
         <StateContext.Provider value={{store, dispatch}}>
+        <ReactNav />
+
           <div className="heading">
             <h1>Cookie Clicker</h1>
           </div>
